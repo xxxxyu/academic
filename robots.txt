@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://xxxxyu.github.io/academic/sitemap.xml
+Sitemap: https://xxxxyu.github.ioacademic/sitemap.xml
