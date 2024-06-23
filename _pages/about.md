@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there! 👋
+Hi there! :wave:
 
 I am currently pursuing my Ph.D. at the **[Institute for AI Industry Research (AIR)](https://air.tsinghua.edu.cn/en/)**, **[Tsinghua University](https://www.tsinghua.edu.cn/en/)**, advised by **[Prof. Yunxin Liu](https://yunxinliu.github.io/)**. Prior to this, I received my B.S. degree from the **[Department of Electronic Engineering](https://www.ee.tsinghua.edu.cn/en/)**, also at Tsinghua Univeristy (2022/06). My research interest lies in the intersection of **mobile computing** and **efficient deep learning**. My recent published work **[FlexNN (MobiCom 2024)](https://dl.acm.org/doi/10.1145/3636534.3649391)** has addressed the limited memory for DNN inference on mobile devices, via fine-grained memory management.
 
