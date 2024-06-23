@@ -3,112 +3,58 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{li2024flexnn,
+  bibtex_show = {true},
+  selected    = {true},
+  abbr        = {MobiCom},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3636534.3649391},
+  author      = {Li, Xiangyu and Li, Yuanchun and Li, Yuanzhe and Cao, Ting and Liu, Yunxin},
+  title       = {FlexNN: Efficient and Adaptive DNN Inference on Memory-Constrained Edge Devices},
+  year        = {2024},
+  isbn        = {9798400704895},
+  publisher   = {Association for Computing Machinery},
+  address     = {New York, NY, USA},
+  url         = {https://doi.org/10.1145/3636534.3649391},
+  doi         = {10.1145/3636534.3649391},
+  abstract    = {Due to the popularity of deep neural networks (DNNs) and considerations over network overhead, data privacy, and inference latency, there is a growing interest in deploying DNNs to edge devices in recent years. However, the limited memory becomes a major bottleneck for on-device DNN deployment, making it crucial to reduce the memory footprint of DNN. The mainstream model customization solutions require intensive deployment efforts and may lead to severe accuracy degradation, and existing deep learning (DL) frameworks don't take memory as a priority. Besides, recent works to enhance the memory management scheme cannot be directly applied because of several challenges, including the unbalanced memory footprint across layers, the inevitable overhead of memory management, and the memory budget dynamicity. To tackle these challenges, we introduce FlexNN, an efficient and adaptive memory management framework for DNN inference on memory-constrained devices. FlexNN uses a slicing-loading-computing joint planning approach, to achieve optimal memory utilization and minimal memory management overhead. We implemented FlexNN atop NCNN, and conducted comprehensive evaluations with common model architectures on various devices. The results have shown that our approach is able to adapt to different memory constraints with optimal latency-memory trade-offs. For example, FlexNN can reduce the memory consumption by 93.81\% with only a 3.64\% increase in latency, as compared with the original NCNN on smartphones.},
+  booktitle   = {Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
+  pages       = {709–723},
+  numpages    = {15},
+  keywords    = {edge device, deep learning, DNN inference, memory management},
+  location    = {Washington D.C., DC, USA},
+  series      = {ACM MobiCom '24}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{li2024personal_llm_agents,
+  bibtex_show = {true},
+  selected    = {true},
+  abbr        = {arXiv},
+  pdf         = {https://arxiv.org/pdf/2401.05459.pdf},
+  website     = {https://github.com/MobileLLM/Personal_LLM_Agents_Survey},
+  title       = {Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security},
+  author      = {Yuanchun Li and Hao Wen and Weijun Wang and Xiangyu Li and Yizhen Yuan and Guohong Liu and Jiacheng Liu and Wenxing Xu and Xiang Wang and Yi Sun and Rui Kong and Yile Wang and Hanfei Geng and Jian Luan and Xuefeng Jin and Zilong Ye and Guanjing Xiong and Fan Zhang and Xiang Li and Mengwei Xu and Zhijun Li and Peng Li and Yang Liu and Ya-Qin Zhang and Yunxin Liu},
+  year        = {2024},
+  abstract    = {Since the advent of personal computing devices, intelligent personal assistants (IPAs) have been one of the key technologies that researchers and engineers have focused on, aiming to help users efficiently obtain information and execute tasks, and provide users with more intelligent, convenient, and rich interaction experiences. With the development of the smartphone and Internet of Things, computing and sensing devices have become ubiquitous, greatly expanding the functional boundaries of intelligent personal assistants. However, due to the lack of capabilities such as user intent understanding, task planning, tool using, and personal data management etc., existing intelligent personal assistants still have limited practicality and scalability. In recent years, the emergence of foundation models, represented by large language models (LLMs), brings new opportunities for the development of intelligent personal assistants. With the powerful semantic understanding and reasoning capabilities, LLM can enable intelligent agents to solve complex problems autonomously. In this paper, we focus on Personal LLM Agents, which are LLM-based agents that are deeply integrated with personal data and personal devices and used for personal assistance. We envision that Personal LLM Agents will become a major software paradigm for end-users in the upcoming era. To realize this vision, we take the first step to discuss several important questions about Personal LLM Agents, including their architecture, capability, efficiency and security. We start by summarizing the key components and design choices in the architecture of Personal LLM Agents, followed by an in-depth analysis of the opinions collected from domain experts. Next, we discuss several key challenges to achieve intelligent, efficient and secure Personal LLM Agents, followed by a comprehensive survey of representative solutions to address these challenges.},
+  journal     = {arXiv preprint arXiv:2401.05459}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{dai2022dimmining,
+  bibtex_show = {true},
+  abbr        = {ISCA},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3470496.3527388},
+  author      = {Dai, Guohao and Zhu, Zhenhua and Fu, Tianyu and Wei, Chiyue and Wang, Bangyan and Li, Xiangyu and Xie, Yuan and Yang, Huazhong and Wang, Yu},
+  title       = {DIMMining: pruning-efficient and parallel graph mining on near-memory-computing},
+  year        = {2022},
+  isbn        = {9781450386104},
+  publisher   = {Association for Computing Machinery},
+  address     = {New York, NY, USA},
+  url         = {https://doi.org/10.1145/3470496.3527388},
+  doi         = {10.1145/3470496.3527388},
+  abstract    = {Graph mining, which finds specific patterns in the graph, is becoming increasingly important in various domains. We point out that accelerating graph mining suffers from the following challenges: (1) Heavy comparison for pruning: Pruning technique is widely used to reduce search space in graph mining. It applies constraints on vertex indices and involves massive index comparisons. (2) Low parallelism of set operations: The typical graph mining algorithms can be expressed as a series of set operations between neighbors of vertices, which suffer from low parallelism if vertices are streaming to the computation units. (3) Heavy data transfer: Graph mining needs to transfer intermediate data with two orders of magnitude larger than the original data volume between CPU and memory.To tackle these challenges, we propose DIMMining with four techniques from algorithm to architecture perspectives. The Index Pre-comparison scheme is proposed for efficient pruning. We introduce the self anchor and neighbor partition to enable pre-comparison for vertex indices. Thus, we can reduce comparisons during runtime. We propose a Flexible BCSR (Bitmap with Compressed Sparse Row) format to enable parallelism for set operations from the data structure perspective, which works on continuous vertices without memory space overheads. The Systolic Merge Array is designed to further explore the parallelism on discontinuous vertices from the architecture perspective. Then, we propose a DIMM-based Near-Memory-Computing architecture, which eliminates the large-volume data transfer between the computation and the memory. Extensive experimental results on real-world graphs show that DIMMining achieves 222.23X and 139.51X speedup compared with FPGAs and CPUs, and 3.61X speedup over the state-of-the-art graph mining architecture.},
+  booktitle   = {Proceedings of the 49th Annual International Symposium on Computer Architecture},
+  pages       = {130-145},
+  numpages    = {16},
+  keywords    = {systolic merge array, near-memory-computing, graph mining},
+  location    = {New York, New York},
+  series      = {ISCA '22}
 }
