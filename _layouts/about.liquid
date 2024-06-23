@@ -11,7 +11,9 @@ layout: default
         <span class="font-weight-bold">{{ site.title }}
       {% endif %}
     </h1>
-    <p><b>{{ page.subtitle }}</b></p>
+    <p>
+      <b>{{ page.subtitle }}</b>
+    </p>
   </header>
 
   <article>
@@ -56,13 +58,15 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    {% comment %} <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %} {% endcomment %}
+    {% comment %}
+      <!-- Latest posts -->
+      {% if site.latest_posts.enabled %}
+        <h2>
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        </h2>
+        {% include latest_posts.liquid %}
+      {% endif %}
+    {% endcomment %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}

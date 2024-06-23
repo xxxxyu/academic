@@ -15,10 +15,7 @@
       "startDate": "2018-09",
       "endDate": "2022-06",
       "score": "10",
-      "courses": [
-        "Advised by Prof. Yu Wang in NICS-EFC group",
-        "Vice chair of EESAST"
-      ]
+      "courses": ["Advised by Prof. Yu Wang in NICS-EFC group", "Vice chair of EESAST"]
     },
     {
       "institution": "Institute for AI Industry Research (AIR), Tsinghua University",
@@ -28,10 +25,7 @@
       "startDate": "2022-09",
       "endDate": "now",
       "score": "10",
-      "courses": [
-        "Advised by Prof. Yunxin Liu in AIR-AIoT group",
-        "Member of the MobileLLM team led by Prof. Yuanchun Li"
-      ]
+      "courses": ["Advised by Prof. Yunxin Liu in AIR-AIoT group", "Member of the MobileLLM team led by Prof. Yuanchun Li"]
     }
   ],
   "work": [
