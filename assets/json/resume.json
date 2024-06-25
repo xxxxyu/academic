@@ -11,7 +11,7 @@
       "institution": "Department of Electronic Engineering, Tsinghua University",
       "location": "Beijing, China",
       "area": "Electronic Information Science and Technology",
-      "studyType": "B.S. in Electronic Engineering",
+      "studyType": "B.Eng. in Electronic Engineering",
       "startDate": "2018-09",
       "endDate": "2022-06",
       "score": "10",
@@ -55,12 +55,12 @@
   "references": [
     {
       "name": "Prof. Yunxin Liu",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-user-tie",
       "reference": "Dr. Yunxin Liu is currently a Guoqiang Professor at Institute for AI Industry Research (AIR), Tsinghua University and the Director of the Tsinghua University - AsiaInfo Technologies (China) Inc. Joint Research Center. He joined Tsinghua University in April 2021, prior to which he was a Principal Researcher and the Research Manager of Heterogeneous and Extreme Computing (HEX) group at Microsoft Research Asia."
     },
     {
       "name": "Prof. Yuanchun Li",
-      "icon": "fa-solid fa-thumbtack",
+      "icon": "fa-solid fa-user-tie",
       "reference": "Dr. Yuanchun Li is currently an Assistant Professor of Institute for AI Industry Research (AIR). He received his PhD degree and Bachelor's degree in Computer Science, both from Peking University. He had also worked as a Visiting PhD Student at Carnegie Mellon University. Before joining AIR, he was a Senior Researcher in the Systems Research Group at Microsoft Research Asia."
     }
   ]
