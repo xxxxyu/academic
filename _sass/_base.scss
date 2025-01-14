@@ -19,6 +19,12 @@ strong {
   color: var(--global-text-color);
 }
 
+// Justify text alignment for all elements
+p,
+td {
+  text-align: justify;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -401,7 +407,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2em; // shrink contact icon size
 
     a {
       img {

@@ -3,8 +3,10 @@ layout: null
 permalink: /blog/
 title: Blog
 nav: true
-nav_order: 3
+nav_order: 10
 ---
+
+<!-- Redirect to the external blog site -->
 
 <!DOCTYPE html>
 <html>

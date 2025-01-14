@@ -17,7 +17,9 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
+          <span class="font-weight-bold"> {% comment %}Display title in boldface{% endcomment %}
             {{- site.title -}}
+          </span>
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}

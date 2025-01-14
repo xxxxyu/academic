@@ -7,11 +7,11 @@ first_name: Xiangyu
 middle_name:
 last_name: Li
 contact_note: >
-  Email is the best way to reach me.
+  <a href="mailto:lixiangy22@mails.tsinghua.edu.cn"><b>Email</b></a> is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  My academic homepage
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: mobile-computing, llm, llm-inference, tsinghua-university, xiangyuli, lixiangyu # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

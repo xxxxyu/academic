@@ -8,10 +8,12 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
+      <span class="font-weight-bold"> {% comment %}Display title in boldface{% endcomment %}
         {{ site.title }}
+      </span>
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="font-weight-bold">{{ page.subtitle }}</p> {% comment %}Display subtitle in boldface{% endcomment %}
   </header>
 
   <article>
@@ -43,7 +45,7 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit" class="font-weight-bold">News 📢</a> {% comment %} Capital, boldface, and emoji {% endcomment %}
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -51,7 +53,7 @@ layout: default
     <!-- Latest posts -->
     {% if site.latest_posts and site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit" class="font-weight-bold">Latest Posts 📬</a> {% comment %} Capital, boldface, and emoji {% endcomment %}
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -59,7 +61,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit" class="font-weight-bold">Selected Publications 📖</a> {% comment %} Capital, boldface, and emoji {% endcomment %}
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

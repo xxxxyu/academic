@@ -6,7 +6,7 @@ subtitle: Ph.D. Student | Tsinghua University | Mobile Computing | LLM Inference
 
 profile:
   align: right
-  image: profile/xiangyu_2.jpg
+  image: profile/xiangyu_1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
