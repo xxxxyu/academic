@@ -1,9 +1,10 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"MobiCom 2024":
+  url: https://www.sigmobile.org/mobicom/2024/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"arXiv":
+  url: https://arxiv.org/
+  # color: "#b31b1b"
 
-"Vision":
-  color: "#009f36"
+"ISCA 2022":
+  url: https://iscaconf.org/isca2022/

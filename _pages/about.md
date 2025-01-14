@@ -1,25 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Student | Tsinghua University | Mobile Computing | LLM Inference
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile/xiangyu_2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a 3rd year Ph.D. student at the **[Institute for AI Industry Research (AIR), Tsinghua University](https://air.tsinghua.edu.cn/en/)**, advised by **[Prof. Yunxin Liu](https://yunxinliu.github.io/)**. Prior to this, I received my B.Eng. degree from the **[Department of Electronic Engineering, Tsinghua Univeristy](https://www.ee.tsinghua.edu.cn/en/)** (2022/06).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest lies in the intersection of mobile computing and efficient deep learning (prior work on efficient and adaptive memory management: **[FlexNN](https://dl.acm.org/doi/10.1145/3636534.3649391)**). I am currently focused on efficiently deploying LLMs (Large Language Models) on edge/mobile devices.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining AIR, I researched on Graph Mining System in the **[NICS-EFC](https://nicsefc.ee.tsinghua.edu.cn/)** group led by Prof. Yu Wang (2020/01~2021/06), and developed my interest in system research eversince. I also worked as a summer intern at **[ByteDance](https://www.bytedance.com/en)** (2021/06~2021/09).
+
+Apart from research and internship, I am proud to have served my peers as a member of the Student Association for Science and Technology, Dept. of EE **[(EESAST)](https://eesast.com/)** for 3 years.
+
+Feel free to contact: **<lixiangy22@mails.tsinghua.edu.cn>**
