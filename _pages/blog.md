@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /blog/
-title: Blog
+title: Blog <i class="fa-solid fa-arrow-up-right-from-square"></i>
 nav: true
 nav_order: 10
 ---
