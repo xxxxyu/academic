@@ -40,7 +40,7 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix text-justify">{{ content }}</div > {% comment %} Justify alignment {% endcomment %}
 
     <!-- News -->
     {% if page.news and site.announcements and site.announcements.enabled %}
