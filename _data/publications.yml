@@ -1,22 +1,38 @@
 main:
+  - title: "FlexNN: Efficient and Adaptive DNN Inference on Memory-Constrained Edge Devices"
+    authors: <strong><u>Xiangyu Li</u></strong>, Yuanchun Li, Yuanzhe Li, Ting Cao, Yunxin Liu.
+    conference_short: MobiCom
+    conference: The 30th Annual International Conference on Mobile Computing and Networking <strong>(MobiCom)</strong>,  2024.
+    paper: https://dl.acm.org/doi/pdf/10.1145/3636534.3649391
+    slides: https://github.com/xxxxyu/FlexNN/blob/main/assets/FlexNN-MobiCom.pdf
+    code: https://github.com/xxxxyu/FlexNN
+    notes: Oral Presentation, Artifact Evaluated
+    image: ./assets/img/publication/flexnn.png
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security"
+    authors: Yuanchun Li, Hao Wen, Weijun Wang, <strong><u>Xiangyu Li</u></strong>, Yizhen Yuan, Guohong Liu, Jiacheng Liu, Wenxing Xu, Xiang Wang, Yi Sun, Rui Kong, Yile Wang, Hanfei Geng, Jian Luan, Xuefeng Jin, Zilong Ye, Guanjing Xiong, Fan Zhang, Xiang Li, Mengwei Xu, Zhijun Li, Peng Li, Yang Liu, Ya-Qin Zhang, Yunxin Liu.
+    conference: ArXiv preprint, 2024.
+    paper: https://arxiv.org/pdf/2401.05459.pdf
+    code: https://github.com/MobileLLM/Personal_LLM_Agents_Survey
+    notes: Survey, Section Lead
+    image: ./assets/img/publication/personal_llm_agents.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+others:
+  - title: "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint"
+    authors: Yi Sun, Han Wang, Jiaqiang Li, Jiacheng Liu, <strong><u>Xiangyu Li</u></strong>, Hao Wen, Yizhen Yuan, Huiwen Zheng, Yan Liang, Yuanchun Li, Yunxin Liu.
+    conference: ArXiv preprint, 2025.
+    paper: https://arxiv.org/pdf/2504.14350.pdf
+    page: https://time-is-up.github.io
+
+  - title: "ChainStream: An LLM-based Framework for Unified Synthetic Sensing"
+    authors: Jiacheng Liu, Yuanchun Li, Liangyan Li, Yi Sun, Hao Wen, <strong><u>Xiangyu Li</u></strong>, Yao Guo, Yunxin Liu.
+    conference: ArXiv preprint, 2024.
+    paper: https://arxiv.org/pdf/2412.15240.pdf
+    code: https://github.com/MobileLLM/ChainStream
+    page: https://mobilellm.github.io/ChainStream
+
+  - title: "DIMMining: Pruning-Efficient and Parallel Graph Mining on Near-Memory-Computing"
+    authors: Guohao Dai, Zhenhua Zhu, Tianyu Fu, Chiyue Wei, Bangyan Wang, <strong><u>Xiangyu Li</u></strong>, Yuan Xie, Huazhong Yang, Yu Wang.
+    conference_short: ISCA
+    conference: The 49th Annual International Symposium on Computer Architecture <strong>(ISCA)</strong>,  2022.
+    paper: https://dl.acm.org/doi/pdf/10.1145/3470496.3527388
