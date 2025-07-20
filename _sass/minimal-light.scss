@@ -595,3 +595,143 @@ footer {
   display:none;
   font-family: monospace;
 }
+
+// Base font size adjustments for larger screens
+@media screen and (min-width: 961px) {
+  body {
+    font-size: 16px; // Increase from default ~14px
+    line-height: 1.6;
+  }
+
+  // Increase wrapper width for better use of screen space
+  .wrapper {
+    width: 1200px; // Increase from 960px
+    margin: 0 auto;
+  }
+
+  // Adjust header width proportionally
+  header {
+    width: 280px; // Increase from 232px
+    padding-top: 3.0em;
+  }
+
+  // Adjust section width to use remaining space better
+  section {
+    width: 850px; // Increase from 650px
+    padding-top: 3.0em;
+  }
+
+  // Adjust footer width to match header
+  footer {
+    width: 280px;
+  }
+
+  // Increase paragraph spacing for better readability
+  p, ul, ol, table, pre, dl {
+    margin: 0 0 24px; // Increase from 20px
+  }
+
+  // Scale up headings slightly
+  h1 {
+    font-size: 32px; // Increase from 28px
+  }
+
+  h2 {
+    font-size: 26px; // Add explicit size, increase from default
+    margin: 4px 0px 18px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  // Increase education and paper title sizes
+  education {
+    font-weight: 500;
+    font-size: 125%; // Increase from 115%
+  }
+
+  papertitle {
+    font-weight: 600;
+    font-size: 110%; // Increase from 100%
+  }
+
+  // Improve social icons sizing
+  .social-icons a {
+    height: 2.8rem; // Increase from 2.4rem
+    width: 2.8rem;
+    font-size: 1.3rem; // Increase from 1.15rem
+    line-height: 2.9rem; // Adjust accordingly
+    margin-right: 1.2rem; // Increase spacing
+  }
+
+  // Scale up icon buttons
+  .icon-button {
+    font-size: 2.2rem; // Increase from 2.0rem
+    height: 4.0rem; // Increase from 3.6rem
+    width: 4.0rem;
+    line-height: 4.0rem;
+    margin: 0 6px; // Increase from 5px
+  }
+
+  .icon-button:hover span {
+    width: 4.0rem;
+    height: 4.0rem;
+    border-radius: 4.0rem;
+    margin: -2.0rem; // Adjust for new size
+  }
+
+  .icon-button i {
+    height: 4.0rem;
+    line-height: 4.0rem;
+    width: 4.0rem;
+  }
+
+  // Improve table readability
+  th, td {
+    padding: 8px 12px; // Increase from 5px 10px
+  }
+
+  // Better code block sizing
+  pre {
+    max-width: 700px; // Increase from 500px
+    padding: 12px 20px; // Increase from 8px 15px
+    font-size: 14px;
+  }
+
+  // Email font adjustment
+  email {
+    font-size: 16px; // Increase from 14px
+  }
+}
+
+// For very large screens (1400px+), add even more spacing
+@media screen and (min-width: 1400px) {
+  .wrapper {
+    width: 1400px;
+  }
+
+  header {
+    width: 320px;
+  }
+
+  section {
+    width: 1000px;
+  }
+
+  footer {
+    width: 320px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
