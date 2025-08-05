@@ -2,7 +2,7 @@ main:
   - title: "FlexNN: Efficient and Adaptive DNN Inference on Memory-Constrained Edge Devices"
     authors: <strong><u>Xiangyu Li</u></strong>, Yuanchun Li, Yuanzhe Li, Ting Cao, Yunxin Liu.
     conference_short: MobiCom
-    conference: The 30th Annual International Conference on Mobile Computing and Networking <strong>(MobiCom)</strong>,  2024.
+    conference: The 30th Annual International Conference on Mobile Computing and Networking <strong>(MobiCom)</strong>, 2024.
     paper: https://dl.acm.org/doi/pdf/10.1145/3636534.3649391
     slides: https://github.com/xxxxyu/FlexNN/blob/main/assets/FlexNN-MobiCom.pdf
     code: https://github.com/xxxxyu/FlexNN
@@ -14,10 +14,16 @@ main:
     conference: ArXiv preprint, 2024.
     paper: https://arxiv.org/pdf/2401.05459.pdf
     code: https://github.com/MobileLLM/Personal_LLM_Agents_Survey
-    notes: Survey, Section Lead
+    notes: Survey, "Efficiency" Section Lead
     image: ./assets/img/publication/personal_llm_agents.png
 
 others:
+  - title: "Squeezer: Efficient Multi-DNN Inference for Edge Video Analytics via Cross-Model Scheduling"
+    authors: Xiang Wang, Lingxiao Ma, Ziyan Fu, <strong><u>Xiangyu Li</u></strong>, Yuanchun Li, Ju Ren, Yaoxue Zhang, Yunxin Liu.
+    conference_short: TMC
+    conference: IEEE Transactions on Mobile Computing <strong>(TMC)</strong>, 2025.
+    paper: https://ieeexplore.ieee.org/abstract/document/11096018
+
   - title: "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint"
     authors: Yi Sun, Han Wang, Jiaqiang Li, Jiacheng Liu, <strong><u>Xiangyu Li</u></strong>, Hao Wen, Yizhen Yuan, Huiwen Zheng, Yan Liang, Yuanchun Li, Yunxin Liu.
     conference: ArXiv preprint, 2025.
@@ -34,5 +40,5 @@ others:
   - title: "DIMMining: Pruning-Efficient and Parallel Graph Mining on Near-Memory-Computing"
     authors: Guohao Dai, Zhenhua Zhu, Tianyu Fu, Chiyue Wei, Bangyan Wang, <strong><u>Xiangyu Li</u></strong>, Yuan Xie, Huazhong Yang, Yu Wang.
     conference_short: ISCA
-    conference: The 49th Annual International Symposium on Computer Architecture <strong>(ISCA)</strong>,  2022.
+    conference: The 49th Annual International Symposium on Computer Architecture <strong>(ISCA)</strong>, 2022.
     paper: https://dl.acm.org/doi/pdf/10.1145/3470496.3527388
