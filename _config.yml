@@ -2,6 +2,7 @@
 title: Xiangyu Li
 position: Ph.D. Student
 affiliation: Institute for AI Industry Research (AIR), Tsinghua University
+affiliation_link: https://air.tsinghua.edu.cn/en/
 # email: lixiangy22@mails.tsinghua.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -21,8 +22,8 @@ linkedin: www.linkedin.com/in/xiangyu-li-b81068207
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
 avatar: ./assets/img/profile/xiangyu_1.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon: ./assets/img/icon/xyu_logo.png
+# favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."

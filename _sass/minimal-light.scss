@@ -597,33 +597,10 @@ footer {
 }
 
 // Base font size adjustments for larger screens
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 960px) {
   body {
-    font-size: 16px; // Increase from default ~14px
+    font-size: 18px; // Increase from default ~14px
     line-height: 1.6;
-  }
-
-  // Increase wrapper width for better use of screen space
-  .wrapper {
-    width: 1200px; // Increase from 960px
-    margin: 0 auto;
-  }
-
-  // Adjust header width proportionally
-  header {
-    width: 280px; // Increase from 232px
-    padding-top: 3.0em;
-  }
-
-  // Adjust section width to use remaining space better
-  section {
-    width: 850px; // Increase from 650px
-    padding-top: 3.0em;
-  }
-
-  // Adjust footer width to match header
-  footer {
-    width: 280px;
   }
 
   // Increase paragraph spacing for better readability
@@ -707,6 +684,7 @@ footer {
 
 // For very large screens (1400px+), add even more spacing
 @media screen and (min-width: 1400px) {
+
   .wrapper {
     width: 1400px;
   }
@@ -724,7 +702,8 @@ footer {
   }
 
   body {
-    font-size: 18px;
+    font-size: 20px; // Increase
+    line-height: 1.6;
   }
 
   h1 {
