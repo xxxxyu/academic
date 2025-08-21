@@ -105,8 +105,8 @@
 
 <!-- Button to adjust showed publications -->
 
-<div style="text-align: center; margin-top: 20px;">
-  <span id="toggle-publications" style="font-size:18px; color: #007bff; cursor: pointer; text-decoration: none;">
+<div style="text-align: center; margin: -30px 0px 20px;">
+  <span id="toggle-publications" style="font-size:20px; color: #007bff; cursor: pointer; text-decoration: none;">
     See More Publications
   </span>
 </div>
