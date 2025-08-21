@@ -682,35 +682,35 @@ footer {
   }
 }
 
-// For very large screens (1400px+), add even more spacing
-@media screen and (min-width: 1400px) {
+// // For very large screens (1400px+), add even more spacing
+// @media screen and (min-width: 1400px) {
 
-  .wrapper {
-    width: 1400px;
-  }
+//   .wrapper {
+//     width: 1400px;
+//   }
 
-  header {
-    width: 320px;
-  }
+//   header {
+//     width: 320px;
+//   }
 
-  section {
-    width: 1000px;
-  }
+//   section {
+//     width: 1000px;
+//   }
 
-  footer {
-    width: 320px;
-  }
+//   footer {
+//     width: 320px;
+//   }
 
-  body {
-    font-size: 20px; // Increase
-    line-height: 1.6;
-  }
+//   body {
+//     font-size: 20px; // Increase
+//     line-height: 1.6;
+//   }
 
-  h1 {
-    font-size: 36px;
-  }
+//   h1 {
+//     font-size: 36px;
+//   }
 
-  h2 {
-    font-size: 28px;
-  }
-}
+//   h2 {
+//     font-size: 28px;
+//   }
+// }
