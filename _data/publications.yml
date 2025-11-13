@@ -12,28 +12,28 @@ main:
   - title: "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security"
     authors: Yuanchun Li, Hao Wen, Weijun Wang, <strong><u>Xiangyu Li</u></strong>, Yizhen Yuan, Guohong Liu, Jiacheng Liu, Wenxing Xu, Xiang Wang, Yi Sun, Rui Kong, Yile Wang, Hanfei Geng, Jian Luan, Xuefeng Jin, Zilong Ye, Guanjing Xiong, Fan Zhang, Xiang Li, Mengwei Xu, Zhijun Li, Peng Li, Yang Liu, Ya-Qin Zhang, Yunxin Liu.
     conference: ArXiv preprint, 2024.
-    paper: https://arxiv.org/pdf/2401.05459.pdf
+    paper: https://arxiv.org/pdf/2401.05459
     code: https://github.com/MobileLLM/Personal_LLM_Agents_Survey
     notes: Survey, "Efficiency" Section Lead
     image: ./assets/img/publication/personal_llm_agents.png
 
 others:
+  - title: "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint"
+    authors: Yi Sun, Han Wang, Jiaqiang Li, Jiacheng Liu, <strong><u>Xiangyu Li</u></strong>, Hao Wen, Yizhen Yuan, Huiwen Zheng, Yan Liang, Yuanchun Li, Yunxin Liu.
+    conference: The 2025 Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    paper: https://arxiv.org/pdf/2504.14350
+    page: https://time-is-up.github.io
+
   - title: "Squeezer: Efficient Multi-DNN Inference for Edge Video Analytics via Cross-Model Scheduling"
     authors: Xiang Wang, Lingxiao Ma, Ziyan Fu, <strong><u>Xiangyu Li</u></strong>, Yuanchun Li, Ju Ren, Yaoxue Zhang, Yunxin Liu.
     conference_short: TMC
     conference: IEEE Transactions on Mobile Computing <strong>(TMC)</strong>, 2025.
     paper: https://ieeexplore.ieee.org/abstract/document/11096018
 
-  - title: "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint"
-    authors: Yi Sun, Han Wang, Jiaqiang Li, Jiacheng Liu, <strong><u>Xiangyu Li</u></strong>, Hao Wen, Yizhen Yuan, Huiwen Zheng, Yan Liang, Yuanchun Li, Yunxin Liu.
-    conference: ArXiv preprint, 2025.
-    paper: https://arxiv.org/pdf/2504.14350.pdf
-    page: https://time-is-up.github.io
-
   - title: "ChainStream: An LLM-based Framework for Unified Synthetic Sensing"
     authors: Jiacheng Liu, Yuanchun Li, Liangyan Li, Yi Sun, Hao Wen, <strong><u>Xiangyu Li</u></strong>, Yao Guo, Yunxin Liu.
     conference: ArXiv preprint, 2024.
-    paper: https://arxiv.org/pdf/2412.15240.pdf
+    paper: https://arxiv.org/pdf/2412.15240
     code: https://github.com/MobileLLM/ChainStream
     page: https://mobilellm.github.io/ChainStream
 

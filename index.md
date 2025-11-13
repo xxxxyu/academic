@@ -4,23 +4,20 @@ layout: homepage
 
 ## About Me
 
-I am a 4th year Ph.D. student at **[Institute for AI Industry Research (AIR), Tsinghua University](https://air.tsinghua.edu.cn/en/)**, advised by **[Dr. Yunxin Liu](https://yunxinliu.github.io/)**. Prior to this, I received my B.E. degree from **[Department of Electronic Engineering, Tsinghua Univeristy](https://www.ee.tsinghua.edu.cn/en/)** in 2022.
+I am a 4th year Ph.D. candidate at **[Institute for AI Industry Research (AIR), Tsinghua University](https://air.tsinghua.edu.cn/en/)**, advised by **[Dr. Yunxin Liu](https://yunxinliu.github.io/)**. Prior to this, I received my B.E. degree from **[Department of Electronic Engineering, Tsinghua Univeristy](https://www.ee.tsinghua.edu.cn/en/)** in 2022.
 
-My research interests include mobile computing, machine learning systems, and large language models (LLMs). I enjoy doing system research and solving pratical challenges. I am currently focused on **<u>building efficient agentic AI systems on edge platforms via system optimization.</u>**
+My research is focused on **<u>building efficient edge AI systems</u>** on various platforms, such as mobile devices, edge servers, and robots. Main topics and participated works include:
 
-Occasionally sharing thoughts about research, development, etc. See **[Xyu's Blog](https://xxxxyu.github.io/blog)**.
+- **Resource-constrained DNN inference:** [FlexNN](https://dl.acm.org/doi/pdf/10.1145/3636534.3649391) (MobiCom 2024), [Squeezer](https://ieeexplore.ieee.org/abstract/document/11096018) (TMC 2025), [Time's Up](https://arxiv.org/pdf/2504.14350) (EMNLP 2025).
+- **LLM-powered agents on personal devices:** [Personal LLM Agents](https://arxiv.org/pdf/2401.05459) (survey), [ChainStream](https://arxiv.org/pdf/2412.15240).
+- **Model-system co-design for embodied AI:** on-going.
 
-Feel free to contact: **<lixiangy22@mails.tsinghua.edu.cn>**.
-
-<!-- ## Research Interests
-
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning -->
+Welcome to checkout **[Xyu's Blog](https://xxxxyu.github.io/blog)** for timely updates ! ✍️
 
 ## News
 
 <div id="news-list" markdown="1">
-- **[Aug. 2025]** Paper "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint" is accepted to **[EMNLP 2025](https://2025.emnlp.org)** main conference. Congrats to **[Yi Sun](https://scholar.google.com/citations?user=8YHqdcMAAAAJ)**! **[[Paper]](https://arxiv.org/pdf/2504.14350v3)** **[[Page]](https://time-is-up.github.io)**
+- **[Aug. 2025]** Paper "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint" is accepted to **[EMNLP 2025](https://2025.emnlp.org)** main conference. Congrats to **[Yi Sun](https://scholar.google.com/citations?user=8YHqdcMAAAAJ)**! **[[Paper]](https://arxiv.org/pdf/2504.14350)** **[[Page]](https://time-is-up.github.io)**
 - **[Jul. 2025]** Paper "Squeezer: Efficient Multi-DNN Inference for Edge Video Analytics via Cross-Model Scheduling" is accepted to IEEE Transactions on Mobile Computing. Congrats to Xiang Wang! **[[Paper]](https://ieeexplore.ieee.org/document/11096018)**
 - **[Nov. 2024]** I presented **[FlexNN](https://dl.acm.org/doi/pdf/10.1145/3636534.3649391)** at **[MobiCom 2024](https://www.sigmobile.org/mobicom/2024/)**, Washington, D.C., USA. **[[Slides]](https://github.com/xxxxyu/FlexNN/blob/main/assets/FlexNN-MobiCom.pdf)**
 </div>
