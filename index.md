@@ -65,4 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/experiences.md %}
+
+{% include_relative _includes/skills.md %}
