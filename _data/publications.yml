@@ -18,6 +18,13 @@ main:
     image: ./assets/img/publication/personal_llm_agents.png
 
 others:
+  - title: "Vec-LUT: Vector Table Lookup for Parallel Ultra-Low-Bit LLM Inference on Edge Devices"
+    authors: <strong><u>Xiangyu Li*</u></strong>, Chengyu Yin*, Weijun Wang, Jianyu Wei, Ting Cao, Yunxin Liu.
+    conference: ArXiv preprint, 2025.
+    paper: https://www.arxiv.org/abs/2512.06443
+    code: https://github.com/Cipherxzc/vlut.cpp
+    notes: Preprint, under review
+
   - title: "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint"
     authors: Yi Sun, Han Wang, Jiaqiang Li, Jiacheng Liu, <strong><u>Xiangyu Li</u></strong>, Hao Wen, Yizhen Yuan, Huiwen Zheng, Yan Liang, Yuanchun Li, Yunxin Liu.
     conference: The 2025 Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.

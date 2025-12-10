@@ -8,7 +8,7 @@ I am a 4th year Ph.D. candidate at **[Institute for AI Industry Research (AIR), 
 
 My research is focused on **<u>building efficient edge AI systems</u>** on various platforms, such as mobile devices, edge servers, and robots. Main topics and participated works include:
 
-- **Resource-constrained DNN inference:** [FlexNN](https://dl.acm.org/doi/pdf/10.1145/3636534.3649391) (MobiCom 2024), [Squeezer](https://ieeexplore.ieee.org/abstract/document/11096018) (TMC 2025), [Time's Up](https://arxiv.org/pdf/2504.14350) (EMNLP 2025).
+- **Resource-constrained DNN inference:** [FlexNN](https://dl.acm.org/doi/pdf/10.1145/3636534.3649391) (MobiCom 2024), [Squeezer](https://ieeexplore.ieee.org/abstract/document/11096018) (TMC 2025), [Time's Up](https://arxiv.org/pdf/2504.14350) (EMNLP 2025), [Vec-LUT](https://www.arxiv.org/abs/2512.06443).
 - **LLM-powered agents on personal devices:** [Personal LLM Agents](https://arxiv.org/pdf/2401.05459) (survey), [ChainStream](https://arxiv.org/pdf/2412.15240).
 - **Model-system co-design for embodied AI:** on-going.
 
@@ -17,6 +17,7 @@ Welcome to checkout **[Xyu's Blog](https://xxxxyu.github.io/blog)** for timely u
 ## News
 
 <div id="news-list" markdown="1">
+- **[Dec. 2025]** Paper "Vec-LUT: Vector Table Lookup for Parallel Ultra-Low-Bit LLM Inference on Edge Devices" (preprint) is available on Arxiv. **[[Paper]](https://www.arxiv.org/abs/2512.06443)** **[[Code]](https://github.com/Cipherxzc/vlut.cpp)**
 - **[Aug. 2025]** Paper "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint" is accepted to **[EMNLP 2025](https://2025.emnlp.org)** main conference. Congrats to **[Yi Sun](https://scholar.google.com/citations?user=8YHqdcMAAAAJ)**! **[[Paper]](https://arxiv.org/pdf/2504.14350)** **[[Page]](https://time-is-up.github.io)**
 - **[Jul. 2025]** Paper "Squeezer: Efficient Multi-DNN Inference for Edge Video Analytics via Cross-Model Scheduling" is accepted to IEEE Transactions on Mobile Computing. Congrats to Xiang Wang! **[[Paper]](https://ieeexplore.ieee.org/document/11096018)**
 - **[Nov. 2024]** I presented **[FlexNN](https://dl.acm.org/doi/pdf/10.1145/3636534.3649391)** at **[MobiCom 2024](https://www.sigmobile.org/mobicom/2024/)**, Washington, D.C., USA. **[[Slides]](https://github.com/xxxxyu/FlexNN/blob/main/assets/FlexNN-MobiCom.pdf)**
