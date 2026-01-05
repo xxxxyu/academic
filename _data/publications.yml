@@ -23,6 +23,7 @@ others:
     conference: ArXiv preprint, 2025.
     paper: https://www.arxiv.org/abs/2512.06443
     code: https://github.com/Cipherxzc/vlut.cpp
+    model: https://huggingface.co/collections/XXXXyu/vlutcpp
     notes: Preprint, under review
 
   - title: "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint"
